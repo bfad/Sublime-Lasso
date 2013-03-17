@@ -10,7 +10,7 @@ Lasso Homepage: http://www.lassosoft.com/
 
 To manually install the package, issue the following command in a terminal:
 
-    $> git clone git://github.com/bfad/sublime-lasso ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/Lasso
+    $> git clone git://github.com/bfad/Sublime-Lasso ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/Lasso
 
 To update to the latest version of this package:
 
