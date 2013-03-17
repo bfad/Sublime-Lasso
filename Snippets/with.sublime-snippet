@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+with ${1:elm} in ${2:sequence}
+]]></content>
+    <!-- Optional: Description to show in the menu -->
+    <description>query expression with clause</description>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>with</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.lasso</scope>
+</snippet>

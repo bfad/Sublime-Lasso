@@ -1,0 +1,11 @@
+{
+    "cmd": ["$packages/Lasso/Build/check_syntax.sh", "$file"],
+    "selector": "source.lasso",
+
+    "variants": [
+        {
+            "name": "Run",
+            "cmd": ["/usr/bin/lasso9", "$file"]
+        }
+    ]
+}
