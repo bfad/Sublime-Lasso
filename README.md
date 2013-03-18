@@ -18,6 +18,11 @@ To update to the latest version of this package:
     $> git pull
 
 
+## Syntax Highlighters
+
+There are two syntax highlighters: "Lasso" and "HTML (Lasso)". The former treats the file as completely Lasso code - no delimiters necessary. The latter treats the document as HTML with Lasso sprinkled in by any of the standard Lasso 9 delimiters.
+
+
 ## License Information
 
 This package is provided as-is and is placed in the Public Domain.
