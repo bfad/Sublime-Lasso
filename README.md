@@ -6,6 +6,18 @@ Lasso is an excellent programming language with a long history of being used for
 Lasso Homepage: http://www.lassosoft.com/
 
 
+## Installation Using Package Control
+
+If you're not using Will Bond's [Package Control](http://wbond.net/sublime_packages/package_control) solution for Sublime Text, you really should be.
+
+1. If you haven't already, [install Package Control](http://wbond.net/sublime_packages/package_control/installation)
+1. In Sublime Text, bring up the command palette (Tools > Command Palette)
+1. In the Command Palette, find and select "Package Control: Install Package" and hit return
+1. In the resulting palette, find and select the "Lasso" package and hit return
+
+That's it. Package Control will do the rest and you can begin using it right away.
+
+
 ## Manual Installation on OS X
 
 To manually install the package, issue the following command in a terminal:
