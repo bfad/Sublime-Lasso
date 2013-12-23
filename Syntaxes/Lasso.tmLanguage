@@ -42,7 +42,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?i)\b(public|private|protected|data|type|thread|trait|import|provide|require)\b</string>
+			<string>(?i)\b(public|private|protected|data|type|thread|trait|import|parent|provide|require)\b</string>
 			<key>name</key>
 			<string>keyword.descriptors.lasso</string>
 		</dict>
