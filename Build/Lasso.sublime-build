@@ -1,11 +1,12 @@
 {
-    "cmd": ["$packages/Lasso/Build/check_syntax.sh", "$file"],
-    "selector": "source.lasso",
+    "selector": "file.lasso",
+    "target": "lasso_check_syntax",
 
     "variants": [
         {
+            "target": "exec",
             "name": "Run",
-            "cmd": ["/usr/bin/lasso9", "$file"]
+            "shell_cmd": "/usr/bin/lasso9 \"$file\""
         }
     ]
 }
