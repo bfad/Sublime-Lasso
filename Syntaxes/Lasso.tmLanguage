@@ -78,6 +78,91 @@
 			<key>patterns</key>
 			<array>
 				<dict>
+					<key>name</key>
+					<string>meta.definition.type_trait.start.lasso</string>
+
+					<key>begin</key>
+					<string>(?i)\b(define)\s+(?=[_a-z][_0-9a-z]*\s*=&gt;\s*(type|trait|thread)\s*\{)</string>
+
+					<key>beginCaptures</key>
+					<dict>
+						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>keyword.definition.lasso</string>
+						</dict>
+					</dict>
+
+					<key>end</key>
+					<string>(=&gt;)\s*(type|trait|thread)\s*\{</string>
+
+					<key>endCaptures</key>
+					<dict>
+						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>keyword.operator.association.lasso</string>
+						</dict>
+						<key>2</key>
+						<dict>
+							<key>name</key>
+							<string>keyword.descriptors.lasso</string>
+						</dict>
+					</dict>
+
+					<key>patterns</key>
+					<array>
+						<dict>
+							<key>match</key>
+							<string>[_a-z][_0-9a-z]*</string>
+
+							<key>name</key>
+							<string>meta.name.type_trait.lasso</string>
+						</dict>
+					</array>
+				</dict>
+
+				<dict>
+					<key>name</key>
+					<string>meta.definition.method.start.lasso</string>
+
+					<key>begin</key>
+					<string>(?i)\b(define)\s+(?=[_a-z][_0-9a-z]*\s*=&gt;|\()</string>
+
+					<key>beginCaptures</key>
+					<dict>
+						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>keyword.definition.lasso</string>
+						</dict>
+					</dict>
+
+					<key>end</key>
+					<string>\(|(=&gt;)</string>
+
+					<key>endCaptures</key>
+					<dict>
+						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>keyword.operator.association.lasso</string>
+						</dict>
+					</dict>
+
+					<key>patterns</key>
+					<array>
+						<dict>
+							<key>match</key>
+							<string>[_a-z][_0-9a-z]*</string>
+
+							<key>name</key>
+							<string>meta.name.method.lasso</string>
+						</dict>
+					</array>
+				</dict>
+
+				<dict>
 					<key>match</key>
 					<string>(?i)\b(abort|case|define|else|if|inline|iterate|loop|loop_abort|loop_continue|loop_count|loop_key|loop_value|match|protect|records|resultset|return|rows|while)\b</string>
 					<key>name</key>
