@@ -36,7 +36,7 @@
 			<string>text.html.basic</string>
 
 			<key>begin</key>
-			<string>(?m)\A\s*(?=&lt;)</string>
+			<string>(?m)\A\s*(?=&lt;|\[)</string>
 
 			<key>end</key>
 			<string>\a</string>
